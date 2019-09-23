@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+                
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js "></script>
+        <title>
+            JS Demo
+        </title>
+        <script>
+        function addelement(){
+            var x,y,res
+            x = Number(document.getElementById("textbox1").value);
+            y = Number(document.getElementById("textbox2").value);
+            res =x*y;
+            document.getElementById("result").innerHTML=res;
+            console.log(x,y,res)
+        }
+        </script>
+    </head>
+    <body>
+    
+    <form>
+        <div class="form-group">
+          <label for="textbox1">Number1</label>
+          <input type="text" name="textbox1" id="textbox1" class="form-control" placeholder="Number1" aria-describedby="textbox1">
+          <small id="textbox1" class="text-muted">Number1</small>
+        </div>
+        <div class="form-group">
+          <label for="textbox2">Number2</label>
+          <input type="text" name="textbox2" id="textbox2" class="form-control" placeholder="Number2" aria-describedby="textbox2">
+          <small id="textbox2" class="text-muted">Number2</small>
+        </div>
+        <input type="button" value="multiply Numbers"  onclick="addelement()"><br>
+
+
+         
+
+
+</form>
+    <div id="result">
+        result is=
+    </div>
+    
+    </body>
+    
+</html>
