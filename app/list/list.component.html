@@ -1,0 +1,54 @@
+<table>
+    <thead>
+        <tr>
+            <th>DEPARTMENT</th>
+            <th>NAME</th>
+            <th>GROUPNAME</th>
+            <th>MODIFIEDDATE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ia of listtoshow; let i=index">
+            <td>{{ia.department}}</td>
+            <td>{{ia.name}}</td>
+            <td>{{ia.groupname}}</td>
+            <td>{{ia.modifieddate | date:'medium'}}</td>
+            <td><button id="edit" (click)="edit(i)">Edit</button></td>
+        <td><button id="delete" (click)="deletethis(i)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+<div id="updatediv" *ngIf="updatediv">
+
+    <form #updateemployeeForm="ngForm" (ngSubmit)="edit()">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Update List</h3>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="id">Department</label>
+              <input id="department" type="text" class="form-control"
+                     name="department" [(ngModel)]="itm.department" >
+                    
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" class="form-control"
+                     name="name" [(ngModel)]="itm.name" >
+                           </div>
+                
+            <div class="form-group">
+              <label for="groupname">GroupName</label>
+              <input id="groupname" type="text" class="form-control"
+                     name="groupname" [(ngModel)]="itm.groupname"  >
+                     
+            </div>
+            
+          </div>
+          <div class="panel-footer">
+            <button class="btn btn-primary" type="submit">Update</button>
+          </div>
+        </div>
+      </form>
+    </div >
