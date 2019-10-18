@@ -1,0 +1,6 @@
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\bin\Debug\BankSyatem.exe.config
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\bin\Debug\BankSyatem.exe
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\bin\Debug\BankSyatem.pdb
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\obj\Debug\BankSyatem.csprojAssemblyReference.cache
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\obj\Debug\BankSyatem.exe
+C:\Users\sshekhar37\source\repos\BankSyatem\BankSyatem\obj\Debug\BankSyatem.pdb
