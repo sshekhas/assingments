@@ -1,0 +1,6 @@
+C:\Users\sshekhar37\source\repos\assisment\assisment\bin\Debug\assisment.exe.config
+C:\Users\sshekhar37\source\repos\assisment\assisment\bin\Debug\assisment.exe
+C:\Users\sshekhar37\source\repos\assisment\assisment\bin\Debug\assisment.pdb
+C:\Users\sshekhar37\source\repos\assisment\assisment\obj\Debug\assisment.csprojAssemblyReference.cache
+C:\Users\sshekhar37\source\repos\assisment\assisment\obj\Debug\assisment.exe
+C:\Users\sshekhar37\source\repos\assisment\assisment\obj\Debug\assisment.pdb
